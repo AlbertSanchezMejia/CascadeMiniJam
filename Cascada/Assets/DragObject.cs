@@ -45,13 +45,22 @@ public class DragObject : MonoBehaviour
         if (collision.gameObject.CompareTag("Mark"))
         {
             marca = collision.gameObject;
-        }
+        }/*
+        if (collision.gameObject.CompareTag("Puzzle"))
+        {
+            marca = null;
+        }*/
+    }
+
+    public void OnTriggerStay2D(Collider2D collision)
+    {
+
         if (collision.gameObject.CompareTag("Puzzle"))
         {
             marca = null;
         }
-
     }
+
     public void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Mark"))
