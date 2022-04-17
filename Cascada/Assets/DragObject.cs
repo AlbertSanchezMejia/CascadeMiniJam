@@ -7,15 +7,20 @@ public class DragObject : MonoBehaviour
     Vector2 initialPosition;
     Vector3 mousePosition;
     GameObject marca;
-    public Camera camara;
+    [SerializeField] Camera camara;
+
+    [SerializeField] GameObject choosenOne;
+    public bool victory;
 
     void Start()
     {
         initialPosition = transform.position;
+        victory = false;
     }
 
     void OnMouseDrag()
     {
+        victory = false;
         mousePosition = Input.mousePosition;
         mousePosition = camara.ScreenToWorldPoint(mousePosition);
         transform.position = new Vector3(mousePosition.x, mousePosition.y, 1f);
@@ -25,6 +30,7 @@ public class DragObject : MonoBehaviour
     {
         if(marca != null)
         {
+            victory = (choosenOne == marca) ? true : false;
             transform.position = new Vector3(marca.transform.position.x, marca.transform.position.y, 0);
         }
         else
@@ -39,6 +45,10 @@ public class DragObject : MonoBehaviour
         if (collision.gameObject.CompareTag("Mark"))
         {
             marca = collision.gameObject;
+        }
+        if (collision.gameObject.CompareTag("Puzzle"))
+        {
+            marca = null;
         }
 
     }
