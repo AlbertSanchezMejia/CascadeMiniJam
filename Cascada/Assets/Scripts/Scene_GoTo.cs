@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class Scene_GoTo : MonoBehaviour
 {
     public int sceneNumber;
-
     public void GoToScene()
     {
         if (Application.CanStreamedLevelBeLoaded(sceneNumber))
@@ -14,5 +13,6 @@ public class Scene_GoTo : MonoBehaviour
             SceneManager.LoadScene(sceneNumber);
         }
     }
+
 
 }

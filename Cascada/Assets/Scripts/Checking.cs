@@ -6,11 +6,7 @@ public class Checking : MonoBehaviour
 {
     public DragObject[] drags;
     public int aa;
-
-    void Start()
-    {
-        
-    }
+    public GameObject objectoo;
 
     public void Check()
     {
@@ -25,7 +21,7 @@ public class Checking : MonoBehaviour
 
         if (aa == drags.Length)
         {
-            Debug.Log("Ganaste");
+            objectoo.SetActive(true);
         }
 
     }

@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 53179
+  controlID: 112616
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -88,7 +88,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 53180
+  controlID: 112617
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 53181
+  controlID: 112609
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -442,9 +442,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.2060637, y: -0.310182, z: -0.033636317}
+    m_Target: {x: -1.6347213, y: 0.3598728, z: 0.049875434}
     speed: 2
-    m_Value: {x: 2.2060637, y: -0.310182, z: -0.033636317}
+    m_Value: {x: -1.6347213, y: 0.3598728, z: 0.049875434}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -495,9 +495,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.154944
+    m_Target: 5.0124564
     speed: 2
-    m_Value: 6.154944
+    m_Value: 5.0124564
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -579,23 +579,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: e82affffe436fffff64fffff4050ffff6a5fffffb263ffffa469ffff5e7dffff4480ffff8a80ffffcc80ffff5eb0ffff1ec1ffff64c1ffff04c5ffffa8c5fffff2c5ffff50c7ffff5ac7ffffe0c7ffff16ceffff2cceffff96ceffff80e1ffff0cf1ffff56f1ffffb0f2ffff2cfbffff605e00001c76000026760000427e0000d4810000de810000fe8c0000108d0000269000003090000054900000
+      m_SelectedIDs: baabfdff
+      m_LastClickedID: -152646
+      m_ExpandedIDs: baabfdffbcabfdff3aacfdff4eb3fdffe2b4fdffc0b7fdffe6bffdffc8c0fdff16c1fdff70c3fdff1ac5fdffe4cafdff92d6fdffa0e4fdff2af2fdfff0f8fdff36f9fdff7cf9fdff2cfafdff98fafdffdefafdff24fbfdff72fbfdffb8fbfdff0efcfdff54fcfdffc6fdfdffe800feffdc09feffea0afeff300bfeff760bfeffbe15fefffe16feffe219feff281afeff721afeffc01afeff2224feffca24feff1025feff5625feffdc37feff2638feff7438feffba38feff0439feff4a39feff9039feff123afeff583afeff843ffeffd63ffeff3e42feff5a49feffa649feff004bfeff044bfefff450feff3a51feffa05ffeff5260feffc861feff1e62feff7c62feffc262feff0863feff4e63feffc863feff0e64feff5464feffb46bfeff1070feffee71feff3472feff2882feff6e82feffb482fefffa82feff4083feff0e84fefff089feff588afeff928bfeffd88bfeff1e8cfeff688cfeffae8cfefffc8cfeff428dfeffc48ffeff3092feff709afeffc29afeff089bfeff0eacfeffbaacfeff04adfeff66aefeff6eaefeff1cb0feffb4b6feff68b8feffd4bafeff1ebbfeffbabcfeff00bdfeff46bdfeffa0bffeffeabffeff52c3feff98c3fefffec5feff76c6feffbcc6feff02c7feff2cf2feff3a08ffffc80cffffea1dffff1226ffff1626ffff1a26ffff1c26ffff3029ffff3429ffff3829ffff3a29ffffde2affffe22affffe62affffe82afffffc2effff002fffff6230ffffe436ffffc237fffff64fffff4050ffff6a5fffffb263ffffa469ffff5e7dffff4480ffff8a80ffffcc80ffff5eb0ffff1ec1ffff64c1ffff04c5ffffa8c5fffff2c5ffff50c7ffff5ac7ffffe0c7ffff16ceffff2cceffff96ceffff80e1ffff0cf1ffff56f1ffffb0f2ffff2cfbffff605e00001c76000026760000427e0000d4810000de810000fe8c0000108d0000f28f000026900000309000005490000066900000e8b2000074b600006cc30000c2d40000e0d4000008d500001ad5000028d500005ed5000082d5000096d50000c4d5000016d6000024d6000094e600000ee7000022e700006ae70000b0e700009eee000006fa000020fa000018020100320201008c070100220801005a0a0100c2160100ec16010010170100241701004817010074170100ba170100581e0100a22b0100d62b01005a2d0100742d01005a3701008e370100c63701005c380100144301001e43010004440100bc4f0100aa500100b4500100de50010062580100e85901001a5a01000a65010064660100326c01004c6c0100ae740100e074010050750100567e0100308801003a880100448c01007e8c0100b88c01002e940100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Button (Legacy) (2)
+        m_OriginalName: Button (Legacy) (2)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -150662
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -629,7 +629,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 53219
+  controlID: 112618
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -675,8 +675,8 @@ MonoBehaviour:
     y: 0
     width: 602.4
     height: 276.4
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -724,38 +724,38 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ASUS\Desktop\CascadeMiniJam\Cascada
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cc5e0000
-    m_LastClickedID: 24268
+    m_SelectedIDs: 78290100
+    m_LastClickedID: 76152
     m_ExpandedIDs: 00000000cc5e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scripts
+      m_OriginalName: Scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 76152
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -792,9 +792,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d68f0000ca8f0000
-    m_LastClickedInstanceID: 36822
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: baabfdff
+    m_LastClickedInstanceID: -152646
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -811,7 +811,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -819,7 +819,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 42}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 151.60004
@@ -844,9 +844,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 570.4
-    y: 501.6
+    y: 520
     width: 600.4
-    height: 273.8
+    height: 255.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -870,8 +870,8 @@ MonoBehaviour:
     y: 0
     width: 363.19995
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -911,8 +911,8 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 36810
-  m_LastVerticalScrollValue: 270
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

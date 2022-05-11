@@ -12,6 +12,8 @@ public class DragObject : MonoBehaviour
     [SerializeField] GameObject choosenOne;
     public bool victory;
 
+    public AudioSource audioSFX;
+
     void Start()
     {
         initialPosition = transform.position;
@@ -32,6 +34,7 @@ public class DragObject : MonoBehaviour
         {
             victory = (choosenOne == marca) ? true : false;
             transform.position = new Vector3(marca.transform.position.x, marca.transform.position.y, 0);
+            audioSFX.Play();
         }
         else
         {
@@ -45,11 +48,7 @@ public class DragObject : MonoBehaviour
         if (collision.gameObject.CompareTag("Mark"))
         {
             marca = collision.gameObject;
-        }/*
-        if (collision.gameObject.CompareTag("Puzzle"))
-        {
-            marca = null;
-        }*/
+        }
     }
 
     public void OnTriggerStay2D(Collider2D collision)
@@ -61,12 +60,6 @@ public class DragObject : MonoBehaviour
         }
     }
 
-    public void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Mark"))
-        {
-            marca = null;
-        }
-    }
+
 
 }
